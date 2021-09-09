@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HCP-GUELMIM</title>
+    <style>
+      body {
+        margin-top: 20px;
+        font-family: 'Poppins', sans-serif;
+      }
+      .svg{
+        max-width: 100%;
+        margin-top: 20px;
+      }
+      /* Accordion styling */ 
+      .accordion{
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-bottom: 0.3em;
+      }
+      .card-header{
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+      }
+      .app{
+        background-color: #26A69A;
+        padding-top: 2em;
+        padding-bottom: 2em;
+      }
+      .card{
+        border-radius: 0px !important;
+      }
+      /*BarChart styling*/
+      .tick line {
+        stroke: #C0C0BB;
+      }
+      .tick text {
+        fill: #635F5D;
+        font-size: 12px;
+        /*transform: rotateX('90');*/
+      }
+      .mark {
+        fill: #137B80;
+      }
+      .axis-label {
+        font-size: 2.5em;
+        fill: #635F5D;
+      }
+      #legend-container{
+        fill: white;
+        opacity: 0.9;
+        stroke: grey;
+        stroke-width: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="../dist/bundle.js"></script>
+  </body>
+</html>

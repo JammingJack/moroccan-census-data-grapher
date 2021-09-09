@@ -1,0 +1,44 @@
+{
+  "name": "carta2021",
+  "version": "1.0.0",
+  "description": "a react and D3 application that renders maps and charts based on HCP data",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "rollup -c ./rollup.config.js -w"
+  },
+  "keywords": [
+    "d3",
+    "react",
+    "hcp",
+    "enset",
+    "guelmim",
+    "morocco",
+    "internship",
+    "project"
+  ],
+  "author": "Amine Hamou & Hassan Bellouch",
+  "license": "MIT",
+  "dependencies": {
+    "@rollup/plugin-image": "^2.1.0",
+    "bootstrap": "^5.1.0",
+    "d3": "^7.0.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "@rollup/plugin-replace": "^3.0.0",
+    "postcss": "^8.3.6",
+    "rollup": "^2.56.2",
+    "rollup-plugin-image": "^1.0.2",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-postcss": "^4.0.1",
+    "rollup-plugin-serve": "^1.1.0"
+  }
+}
