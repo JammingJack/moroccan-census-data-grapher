@@ -1,7 +1,7 @@
 # moroccan-census-data-grapher
 a web that graphs data of the 2014 moroccan census using d3 and react
 
-This project is build using react and d3 library.
+This project is build using react and d3 library and bundled with rollup
 
 To install the project navigate to the project directory and open commande line, enter 'npm install' to install the project.
 
